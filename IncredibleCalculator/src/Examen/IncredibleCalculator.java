@@ -23,9 +23,9 @@ public class IncredibleCalculator {
                     break;
             case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
             	System.out.println("Introduce el primer termino");
-            	aux1 = 12;
+            	aux1 = leerEnteroEntrada();
             	System.out.println("Introduce el primer termino");
-            	aux2 = 3;
+            	aux2 = leerEnteroEntrada();
             	System.out.printf("%d", resta(aux1, aux2));
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
