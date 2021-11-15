@@ -20,13 +20,13 @@ public class IncredibleCalculator {
 
         switch (opcion) {
             case 1: //Sumar. Debes leer dos numeros enteros de entrada e imprimir su suma
+                    break;
+            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
             	System.out.println("Introduce el primer termino");
             	aux1 = 12;
             	System.out.println("Introduce el primer termino");
             	aux2 = 3;
-            	System.out.printf("%d", suma(aux1, aux2));
-                    break;
-            case 2: // Restar. Debes leer dos números enteros de entrada e imprimir su resta
+            	System.out.printf("%d", resta(aux1, aux2));
                     break;
             case 3: // Multiplicar. Debes leer dos números enteros de entrada e imprimir su producto.
                     break;
