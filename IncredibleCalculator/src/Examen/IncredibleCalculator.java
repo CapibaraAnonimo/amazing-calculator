@@ -41,6 +41,11 @@ public class IncredibleCalculator {
             	multiplicacion(aux1, aux2);
                     break;
             case 4: // Multiplicar. Debes leer dos n�meros enteros de entrada e imprimir su divisi�n entera.
+            	System.out.println("Introduce el primer termino");
+            	aux1 = leerEnteroEntrada();
+            	System.out.println("Introduce el segundo termino");
+            	aux2 = leerEnteroEntrada();
+            	divisionEntera(aux1, aux2);
                     break;
             case 5: // Multiplicar. Debes leer dos n�meros enteros de entrada e imprimir su divisi�n con decimales.
                     break;
